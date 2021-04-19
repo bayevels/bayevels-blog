@@ -5,7 +5,7 @@
   
   <link href="/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2021-04-17T13:16:31+00:00</updated>
+  <updated>2021-04-19T07:03:24+00:00</updated>
   <id>//</id>
 
   
@@ -13,10 +13,112 @@
   
 
   
-    <subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle>
+    <subtitle>Bayevels Thoughts is a blog where I talk about my journey becoming a good enough Software Software developer. Senegal, Software development, Africa, RubyOnRails, VueJS, Typescript, Javascript, Ruby, Rust</subtitle>
   
 
   
 
+  
+  
+    <entry>
+      
+      <title type="html">Finding tech jobs in Senegal the dilemma. Ep. 0</title>
+      
+      
+      <link href="/2021/04/18/finding-tech-jobs-in-senegal/" rel="alternate" type="text/html" title="Finding tech jobs in Senegal the dilemma. Ep. 0" />
+      
+      <published>2021-04-18T00:00:00+00:00</published>
+      <updated>2021-04-18T00:00:00+00:00</updated>
+      <id>/2021/04/18/finding-tech-jobs-in-senegal</id>
+      <content type="html" xml:base="/2021/04/18/finding-tech-jobs-in-senegal/">&lt;h2 id=&quot;software-rules-the-world---its-kingdom-is-growing&quot;&gt;Software Rules the World – &amp;amp; Its Kingdom is Growing&lt;/h2&gt;
+&lt;p&gt;The “father of software quality” Watt S. Humphrey said 2 decades ago.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Every business is a software business&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This was true 2 decades ago in most of the Businesses, they were all using in some way or another softwares to help run their business. In fact any business back then has at least a bank account and we all know that
+&lt;img src=&quot;/assets/images/the-whole-world-financial-systems-held-by-excel.jpeg&quot; alt=&quot;The whole world financial systems held by excel&quot; /&gt; 
+The CEO of Microsoft, Satya Nadella, repeats the message&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;all companies are software companies&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Software is ubiquitous in every company this days. 2 decades ago software was ruling business in this decade we can say without hesitation that&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Software Rules the World – &amp;amp; Its Kingdom is Growing&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;software-jobs-rules-the-job-market-shares----their-kingdoms-are-growing&quot;&gt;Software Jobs Rules the Job Market Shares - &amp;amp; Their Kingdoms are Growing&lt;/h2&gt;
+&lt;p&gt;The demand for IT professionals (Developer, Software Engineer, Data Analyst, CyberSecurity Engineer, AR/VR developer,…) is by far higher than the job seekers. According to the Hired 2020 State of Software Engineering report, in the US only the demand for AR/VR talent is 1,400% higher than it was a year ago, while blockchain demand has grown by 517% during that same period. It’s a great time to be a IT guy you can have work with leterally no degree and you can earn higher than average salaries. This is also true for the european job market.&lt;/p&gt;
+&lt;h2 id=&quot;software-jobs-the-state-in-africa&quot;&gt;Software Jobs the state in Africa&lt;/h2&gt;
+&lt;p&gt;African’s rides the same wave than their fellows from overseas, the demand for IT professionals is growing really fast and there is lots of compagnies that are becoming IT first. In recent years, companies like &lt;a href=&quot;https://andela.com/&quot;&gt;Andela&lt;/a&gt;, &lt;a href=&quot;https://www.gebeya.com/&quot;&gt;GEBEYA&lt;/a&gt; and many others have emerged, this companies are specialized in recruting, training (if needed) and matching IT professionnal (most of the time developers) with compagnies abroad (generally North American) to fill the gap of workers or with african compagnies where most of the HR people are not trained to recruit IT professionals. There is also lots of big tech compagnies (GAFAA, FAANG of whatever suit you) that are creating IT branch in african countries. Nigeria, Ghana and South Africa are hubs where lots of &lt;strong&gt;Giant&lt;/strong&gt; tech compagnies are hiring really talented young africans.&lt;/p&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;🇬🇭 Twitter is now present on the continent.  &lt;br /&gt;&lt;br /&gt;Thank you Ghana and &lt;a href=&quot;https://twitter.com/NAkufoAddo?ref_src=twsrc%5Etfw&quot;&gt;@NAkufoAddo&lt;/a&gt;. &lt;a href=&quot;https://twitter.com/hashtag/TwitterGhana?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#TwitterGhana&lt;/a&gt; &lt;a href=&quot;https://t.co/tt7KR3kvDg&quot;&gt;https://t.co/tt7KR3kvDg&lt;/a&gt;&lt;/p&gt;&amp;mdash; jack (@jack) &lt;a href=&quot;https://twitter.com/jack/status/1381609431381766147?ref_src=twsrc%5Etfw&quot;&gt;April 12, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;thought-for-senegal&quot;&gt;Thought for Senegal&lt;/h2&gt;
+&lt;p&gt;Has a &lt;a href=&quot;https://fr.wiktionary.org/wiki/flou&quot;&gt;&lt;strong&gt;Flou&lt;/strong&gt;&lt;/a&gt; Stack Developer living in Senegal, I can definetely tell that there is a huge demand for software developers. Almost every day job offers related to software development are posted on social media, on recruting plateforms like &lt;a href=&quot;https://www.emploisenegal.com/&quot;&gt;Emploi Senegal&lt;/a&gt; or &lt;a href=&quot;https://www.emploidakar.com/&quot;&gt;Emploi Dakar&lt;/a&gt; or shared by word of mouth.&lt;/p&gt;
+
+&lt;p&gt;Of the last three, word of mouth is the most dominant one HR people are not trained to hire software engineer, most of the time they don’t even know what to put on the job description, they know that they need someone who can craft software but they can’t make the difference between a web developer and a mobile Application developer, and I’m not even talking about making the difference between a Front End Developer or a Back End one, a Mobile Native Developer and a Hybrid App developer :).&lt;/p&gt;
+
+&lt;p&gt;Despite the existence of more job offers than job seekers, it’s really difficult and even sometimes impossible to find a IT job in Senegal whether you’re a developer or a data expert with no experience or a senior level, employers still prefer to use their network and recommendations from friends in order to hire Software developers. The few one who try to post job description go with good intention but end up with really confusing job description.&lt;/p&gt;
+
+&lt;p&gt;I have suffer from that has a job seeker and &lt;em&gt;I’m still suffering from that&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;the-dilemma&quot;&gt;The Dilemma&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/dilemma.jpeg&quot; alt=&quot;The whole world financial systems held by excel&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;« Dilemme » Enfin, de deux choses, l’une mon cher : ou bien votre pharmacie est moderne et ne peut avoir été fondée en 1705 ou bien elle a été réellement fondée à cette époque et ne peut prétendre à être moderne. Je vous enferme dans ce dilemme.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The demand is high their is lots of seekers but they struggle finding each other and they all operate inside an industry that claim to simplify humans life by giving them access to what they need without effort.&lt;/p&gt;
+&lt;h3 id=&quot;the-solution&quot;&gt;The Solution&lt;/h3&gt;
+&lt;p&gt;I want to tackle this questions by building a super simple yet super powerful :) plateform that will let job seekers find easily job offers and job offerers create understandable job posts within 2 &lt;strong&gt;WEEKS&lt;/strong&gt; from now (Monday 19th 2021). Called … to be honest I don’t have a name rigth now but I’ll figure it out I guess.&lt;/p&gt;
+
+&lt;p&gt;Within 2 week ?&lt;/p&gt;
+
+&lt;p&gt;Is it possible ?&lt;/p&gt;
+
+&lt;p&gt;Well will know it at the end of the week.&lt;/p&gt;
+
+&lt;p&gt;I already have lots of things going on in my life rigth now but will add that to it :).&lt;/p&gt;
+
+&lt;p&gt;I’m thinking of something similar to &lt;a href=&quot;https://remoteok.io/&quot;&gt;Remote OK&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WISH ME LUCK&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;useful-links&quot;&gt;Useful links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.forbes.com/sites/steveandriole/2019/10/23/software-rules-the-world---its-kingdom-is-growing/?sh=270459e57d28&quot;&gt;Software Rules the World – &amp;amp; Its Kingdom is Growing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tiempodev.com/blog/current-job-market-for-software-development-professionals/#:~:text=According%20to%20the%20US%20Bureau,all%20occupations%20is%20about%204%25.&quot;&gt;Current Job Market for Software Development Professionals&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+
+      
+        <category term="Thoughts" />
+      
+
+      
+        <category term="Africa" />
+      
+        <category term="Senegal" />
+      
+        <category term="Tech Job" />
+      
+        <category term="Software development" />
+      
+
+      
+        <summary type="html">Software Rules the World – &amp;amp; Its Kingdom is Growing The “father of software quality” Watt S. Humphrey said 2 decades ago. Every business is a software business</summary>
+      
+
+      
+      
+    </entry>
+  
   
 </feed>
