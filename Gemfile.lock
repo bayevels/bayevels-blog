@@ -190,6 +190,7 @@ GEM
       jekyll-seo-tag (~> 2.0)
     jekyll-titles-from-headings (0.5.3)
       jekyll (>= 3.3, < 5.0)
+    jekyll-twitter-plugin (2.1.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jekyll-whiteglass (1.10.2)
@@ -264,6 +265,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
+  jekyll-twitter-plugin
   jekyll-whiteglass
   tzinfo (~> 1.2)
   tzinfo-data
