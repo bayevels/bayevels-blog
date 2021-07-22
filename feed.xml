@@ -5,7 +5,7 @@
   
   <link href="/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2021-04-19T07:03:24+00:00</updated>
+  <updated>2021-07-22T10:33:38+00:00</updated>
   <id>//</id>
 
   
@@ -18,6 +18,112 @@
 
   
 
+  
+  
+    <entry>
+      
+      <title type="html">Luckily I find a way to build blazing fast Web Apps using Ruby syntax</title>
+      
+      
+      <link href="/2021/05/02/luckyli-a-way-to-build-blazing-fast-web-app-using-ruby-syntax/" rel="alternate" type="text/html" title="Luckily I find a way to build blazing fast Web Apps using Ruby syntax" />
+      
+      <published>2021-05-02T00:00:00+00:00</published>
+      <updated>2021-05-02T00:00:00+00:00</updated>
+      <id>/2021/05/02/luckyli-a-way-to-build-blazing-fast-web-app-using-ruby-syntax</id>
+      <content type="html" xml:base="/2021/05/02/luckyli-a-way-to-build-blazing-fast-web-app-using-ruby-syntax/">&lt;p&gt;Let me introduce to you &lt;a href=&quot;https://www.luckyframework.org/&quot;&gt;Lucky&lt;/a&gt; a blazing fast web framework written in Crystal.&lt;/p&gt;
+
+&lt;p&gt;But wait, yet another language to learn.&lt;/p&gt;
+
+&lt;p&gt;If you’re a Rails developer or you use Ruby regularly, Crystal is a great option to look for when building type checked and blazing fast apps using the Ruby syntax, the learning curve is almost near to 0 for you.&lt;/p&gt;
+
+&lt;p&gt;If you’re not familiar to Ruby, it’s probably one of the most &lt;em&gt;programmer happiness centric&lt;/em&gt; scripting language and reading or writting Ruby code feel generally like reading or writting english. Crystal main aim is to recreate the efficiency and friendliness of the Ruby language in a compiled and typed fashion&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;We love Ruby’s efficiency for writing code.&lt;/p&gt;
+
+  &lt;p&gt;We love C’s efficiency for running code.&lt;/p&gt;
+
+  &lt;p&gt;We want the best of both worlds.&lt;/p&gt;
+
+  &lt;p&gt;We want the compiler to understand what we mean without having to specify types everywhere.&lt;/p&gt;
+
+  &lt;p&gt;We want full OOP.&lt;/p&gt;
+
+  &lt;p&gt;Oh, and we don’t want to write C code to make the code run faster.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;crystal-lang&quot;&gt;Crystal Lang&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Crystal&lt;/strong&gt; is a compiled programming language with a syntax similar to &lt;strong&gt;Ruby&lt;/strong&gt; (but compatibility is not a goal). The v1.0.0 was released on &lt;a href=&quot;https://github.com/crystal-lang/crystal/pull/10500&quot;&gt;March 2021&lt;/a&gt;. Crystal has a good community support with more than 16k stars on Github at the time I write this blog. Crystal docs and guides are also really great and concise and you can learn and grasp the language at the speed of light :). Crystal is typically accompanied by &lt;a href=&quot;https://crystal-lang.org/reference/the_shards_command/index.html&quot;&gt;Shards&lt;/a&gt;, its dependency manager.&lt;/p&gt;
+
+&lt;h1 id=&quot;lucky-framework&quot;&gt;Lucky Framework&lt;/h1&gt;
+&lt;p&gt;Lucky is a Rails like Framework written in Crystal with a great, clear and concise documentation, according to the TechEmpower web framework benchmarks &lt;a href=&quot;https://www.techempower.com/benchmarks/#section=data-r20&amp;amp;hw=ph&amp;amp;test=json&amp;amp;c=e&quot;&gt;Round 20&lt;/a&gt;, Lucky is one of the fasters framework out there. the key point to notice here is Lucky is not a micro framework it’s a “Full-Stack” frameworks that provide you all the necessary tools to build complete web apps.
+&lt;img src=&quot;/assets/images/webframeworkbench.jpg&quot; alt=&quot;Web Framework Benchmarks&quot; /&gt;
+&lt;a href=&quot;https://www.luckyframework.org/guides/handling-files/file-uploads&quot;&gt;Lucky&lt;/a&gt; comes with all the good stuffs like HTTP and Routing, Frontend and HTML, Database, JSON and APIs, Authentication, etc… When it’s come to specific thinks like file attachement you can quickly find a shard that does the work for you. Shards are generally heavily inspired by Ruby gems, this makes then really easy to use when you have experience with the Ruby version. For exemple &lt;a href=&quot;https://github.com/jetrockets/shrine.cr&quot;&gt;shrine.rc&lt;/a&gt; used for file attachment is inspired by &lt;a href=&quot;https://github.com/shrinerb/shrine&quot;&gt;shrinerb&lt;/a&gt;. You can use &lt;a href=&quot;https://crystal.libhunt.com/&quot;&gt;Awesome Crystal&lt;/a&gt; a curated list of awesome Crystal shards, tools and frameworks to find quickly the shard that you’re looking for.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-requests-are-processed&quot;&gt;How requests are processed&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/request-overview-diagram.png&quot; alt=&quot;Requests Overview&quot; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Browser or client makes an HTTP request.&lt;/li&gt;
+  &lt;li&gt;Lucky routes the request to a matching Action.&lt;/li&gt;
+  &lt;li&gt;Action processes the request. For example:
+    &lt;ul&gt;
+      &lt;li&gt;Query the database with &lt;a href=&quot;https://www.luckyframework.org/guides/database/intro-to-avram-and-orms&quot;&gt;Avram&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;Create or update db records with &lt;a href=&quot;https://www.luckyframework.org/guides/database/intro-to-avram-and-orms&quot;&gt;Avram&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;Send an email with &lt;a href=&quot;https://www.luckyframework.org/guides/emails/sending-emails-with-carbon&quot;&gt;Carbon&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The Action generates a response for the browser or client. For example:
+    &lt;ul&gt;
+      &lt;li&gt;Generate an HTML page.&lt;/li&gt;
+      &lt;li&gt;Redirect to another URL or Action.&lt;/li&gt;
+      &lt;li&gt;Send JSON.&lt;/li&gt;
+      &lt;li&gt;Finally the response is delivered to the browser or client.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;wrap-up&quot;&gt;Wrap Up&lt;/h1&gt;
+&lt;p&gt;I think that Lucky is great tool for teams that are already familiar with Ruby using Ruby On Rails or Sinatra and have  of the systems that they maintain. 
+To keep this post concise, I have wrote a post where I have builded using Lucky a “car model data” api that return YEAR, Make, Model and Body style of nearly all cars manufactured between 1992 and 2020 approximately 10K car models. I try to explain there in detail how to build APIs using&lt;/p&gt;
+&lt;h2 id=&quot;useful-links&quot;&gt;Useful links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.luckyframework.org/&quot;&gt;Lucky&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://crystal-lang.org/&quot;&gt;Crystal Lang&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.luckyframework.org/guides/http-and-routing/routing-and-params&quot;&gt;Action&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.luckyframework.org/guides/database/intro-to-avram-and-orms&quot;&gt;Avram&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.luckyframework.org/guides/emails/sending-emails-with-carbon&quot;&gt;Carbon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dev.to/konung/lucky-is-fast-2gpp&quot;&gt;Lucky is lightning fast!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+
+      
+        <category term="WebDev" />
+      
+
+      
+        <category term="Lucky" />
+      
+        <category term="Rails Like" />
+      
+        <category term="Crystal" />
+      
+        <category term="Software development" />
+      
+
+      
+        <summary type="html">Let me introduce to you Lucky a blazing fast web framework written in Crystal.</summary>
+      
+
+      
+      
+    </entry>
+  
   
   
     <entry>
